@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:context=".home.HomeActivity">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Serene           !"
+            android:textSize="25dp"
+            android:fontFamily="@font/poppinssemibold"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Path"
+            android:textSize="25dp"
+            android:textColor="#70A597"
+            android:fontFamily="@font/poppinsbold"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="295dp"/>
+
+    <androidx.cardview.widget.CardView
+            android:id="@+id/card_daily"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="40dp"
+            app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:layout_width="112dp"
+            android:layout_height="133dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-20dp"
+            android:src="@drawable/daily" />
+
+        <ImageView
+                android:layout_width="150dp"
+                android:layout_height="2dp"
+                android:src="#DEDEDE"
+                android:layout_marginTop="165dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Daily Conditions"
+                android:textAlignment="center"
+                android:layout_marginTop="173dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+            android:id="@+id/card_article"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="230dp"
+            app:cardCornerRadius="10dp">
+
+        <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/gratitude"
+                android:layout_gravity="center"
+                android:layout_marginTop="-20dp"/>
+
+        <ImageView
+                android:layout_width="150dp"
+                android:layout_height="2dp"
+                android:src="#DEDEDE"
+                android:layout_marginTop="165dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Serene Article"
+                android:textAlignment="center"
+                android:layout_marginTop="173dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+            android:id="@+id/card_hotline"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginStart="40dp"
+            app:cardCornerRadius="10dp">
+        <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/hotline"
+                android:layout_gravity="center"
+                android:layout_marginTop="-20dp"/>
+
+        <ImageView
+                android:layout_width="150dp"
+                android:layout_height="2dp"
+                android:src="#DEDEDE"
+                android:layout_marginTop="165dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hotline"
+                android:textAlignment="center"
+                android:layout_marginTop="173dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+            android:id="@+id/card_music"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginStart="230dp"
+            app:cardCornerRadius="10dp">
+        <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/music"
+                android:layout_gravity="center"
+                android:layout_marginTop="-20dp"/>
+
+        <ImageView
+                android:layout_width="150dp"
+                android:layout_height="2dp"
+                android:src="#DEDEDE"
+                android:layout_marginTop="165dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Music Theraphy"
+                android:textAlignment="center"
+                android:layout_marginTop="173dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+            android:id="@+id/card_about"
+            android:layout_width="345dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="535dp"
+            android:layout_centerHorizontal="true"
+            app:cardCornerRadius="10dp"
+            android:elevation="10dp">
+
+        <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/about"
+                android:layout_gravity="center"
+                android:layout_marginTop="-20dp"/>
+
+        <ImageView
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:src="#DEDEDE"
+                android:layout_marginTop="165dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Serene Path"
+                android:textAlignment="center"
+                android:layout_marginTop="173dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+            android:id="@+id/home_home"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/home_icon1"
+            android:layout_below="@id/card_about"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="100dp"
+            android:layout_alignParentStart="true"/>
+
+    <ImageView
+            android:id="@+id/account_home"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/akun_icon2"
+            android:layout_below="@id/card_about"
+            android:layout_marginTop="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="100dp"/>
+
+</RelativeLayout>

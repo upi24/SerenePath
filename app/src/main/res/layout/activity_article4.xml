@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".home.home_article.Article4">
+
+    <ImageView
+            android:id="@+id/back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/kem"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="30dp"/>
+
+    <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/kem2"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="30dp"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="80dp">
+
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="280dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/detail_article4"/>
+
+                <TextView
+                        android:layout_width="385dp"
+                        android:layout_height="wrap_content"
+                        android:text="Depresi Rentan Menyerang Wanita, Ini Cara Mencegahnya"
+                        android:textSize="25dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppinsbold"
+                        android:layout_marginTop="20dp"/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5 days ago         5 menit"
+                        android:textSize="10dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:layout_marginStart="20dp"/>
+
+                <TextView
+                        android:layout_width="385dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Serenepath, Bandung - Wanita memiliki banyak peran dalam kehidupan. Sebagai ibu, istri, karyawan, teman, dokter, pengasuh, hingga ART, peran kompleks yang dijalani menyebabkan pasang surut sepanjang hidup. Sejumlah peran tersebut memungkinkan terjadinya perubahan suasana hati pada seorang wanita."/>
+
+                <TextView
+                        android:layout_width="385dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Apalagi, jika dalam satu peran memiliki masalah. Misalnya saja bertengkar dengan suami atau memasuki siklus kehamilan dan menstruasi. Emosi cenderung naik dan turun tak menentu. Beberapa orang yang tidak tahan akan cobaan bisa saja masuk ke dalam lingkaran stres tak berujung yang dapat memicu depresi."/>
+
+                <TextView
+                        android:layout_width="385dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="Langkah Mencegah Depresi pada Wanita"/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="1. Bergerak Aktif"/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Bergerak aktif dalam mengatasi depresi pada wanita dilakukan dengan rutin berolahraga. Tidak usah dilakukan berlebihan, cukup dalam intensitas sedang saja. Berolahraga memiliki efek antidepresan yang besar dan efektif dalam mengatasi gejala depresi ringan."/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="2.  Atur Pola Makan"/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Selanjutnya, kamu disarankan untuk mengatur pola makan menjadi lebih sehat. Berkaitan dengan hal tersebut, kamu bisa melakukan diet Mediterania dengan memperbanyak konsumsi buah, sayuran, dan biji-bijian."/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="3. Hindari Konsumsi Alkohol"/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Jika terus dikonsumsi alkohol dapat menurunkan kadar serotonin, yaitu zat kimia yang mengatur suasana hati di otak. Alih-alih membaik, konsumsi alkohol justru dapat menyebabkan depresi bertambah parah."/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="4.  Lakukan Teknik Relaksasi"/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

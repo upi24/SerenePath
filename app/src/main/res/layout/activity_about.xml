@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".home.home_about.AboutActivity">
+
+    <ImageView
+            android:id="@+id/back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/kem"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="30dp"/>
+
+    <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/kem2"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Serene            !"
+        android:textSize="22dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Path"
+        android:textSize="22dp"
+        android:textColor="#70A597"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="250dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/icon_apk"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:layout_width="375dp"
+                    android:layout_height="wrap_content"
+                    android:text="SerenePath adalah lebih dari sekadar aplikasi kesehatan mental. Ini adalah rekan setia Anda dalam perjalanan kesejahteraan emosional. Dirancang dengan cermat untuk menciptakan ruang aman dan mendukung pertumbuhan pribadi. SerenePath menggabungkan teknologi inovatif dengan kebijakan terdepan dalam kesehatan mental.
+Dengan SerenePath, Anda tidak hanya mendapatkan akses ke berbagai alat dan sumber daya kesehatan mental, tetapi juga merasakan kehangatan dan dukungan komunitas. Kami percaya bahwa setiap langkah menuju kesehatan mental yang baik adalah perjalanan yang berharga, dan SerenePath hadir untuk membimbing Anda setiap langkahnya."
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/poppinsregular"
+                    android:textSize="15dp"/>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card1_about"
+                    android:layout_width="410dp"
+                    android:layout_height="135dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="Daily Conditions"
+                        android:layout_marginStart="-120dp"
+                        android:layout_marginTop="-35dp"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Catat dan pantau perubahan dalam kesejahteraan emosional Anda setiap hari. Dengan pelacakan yang canggih, Anda dapat memahami tren dan menyesuaikan pendekatan Anda."
+                        android:layout_marginStart="-65dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="10dp" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/daily"
+                        android:layout_marginStart="265dp"
+                        android:layout_marginTop="20dp"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card2_about"
+                    android:layout_width="410dp"
+                    android:layout_height="135dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="Serene Article"
+                        android:layout_marginStart="-129dp"
+                        android:layout_marginTop="-35dp"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Dapatkan akses ke artikel, tips, dan pemahaman terkini tentang kesehatan mental. SerenePath berkomitmen untuk menyediakan informasi yang akurat dan terpercaya."
+                        android:layout_marginStart="-65dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="10dp" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/gratitude"
+                        android:layout_marginStart="260dp"
+                        android:layout_marginTop="20dp"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card3_about"
+                    android:layout_width="410dp"
+                    android:layout_height="135dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="Serene Hotline"
+                        android:layout_marginStart="-127dp"
+                        android:layout_marginTop="-35dp"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Nikmati sesi bimbingan pribadi dengan profesional kesehatan mental. Kami menyediakan platform yang aman dan rahasia untuk membantu Anda menjalani hidup dengan lebih tenang.
+"
+                        android:layout_marginStart="-65dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="10dp" />
+
+                    <ImageView
+                        android:layout_width="170dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/hotline"
+                        android:layout_marginStart="245dp"
+                        android:layout_marginTop="5dp"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card4_about"
+                    android:layout_width="410dp"
+                    android:layout_height="135dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="Music Therapy"
+                        android:layout_marginStart="-128dp"
+                        android:layout_marginTop="-35dp"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Temukan latihan-latihan kesehatan mental yang disesuaikan dengan kebutuhan Anda. Seperti musik relaksasi, SerenePath membawa Anda ke perjalanan menuju ketenangan."
+                        android:layout_marginStart="-65dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="10dp" />
+
+                    <ImageView
+                        android:layout_width="140dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/music"
+                        android:layout_marginStart="265dp"
+                        android:layout_marginTop="20dp"/>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:text="Apa sih Mental Health?"
+                    android:layout_marginLeft="18dp"
+                    android:fontFamily="@font/poppinssemibold"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@color/background_NAVcolor"
+        android:layout_marginTop="770dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/home_icon1"
+        android:layout_marginTop="785dp"
+        android:layout_marginStart="100dp"
+        android:layout_alignParentStart="true"/>
+
+    <ImageView
+        android:id="@+id/akun_about"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/akun_icon2"
+        android:layout_marginTop="785dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="100dp"/>
+
+</RelativeLayout>

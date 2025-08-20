@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.home_article.SereneArticle">
+
+    <ImageView
+        android:id="@+id/back_article"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/kem"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="30dp"/>
+
+    <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/kem2"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Article Serene           !"
+        android:textSize="22dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="1dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Path"
+        android:textSize="22dp"
+        android:textColor="#70A597"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="253dp"
+        android:elevation="1dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silahkan pilih article"
+        android:textSize="15dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:layout_marginTop="115dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="1dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="150dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/article_card1"
+                android:layout_width="410dp"
+                android:layout_height="135dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/poppinssemibold"
+                    android:text="Mengenal Peran Psikolog Klinis Anak dan Remaja"
+                    android:layout_marginStart="-75dp"
+                    android:layout_marginTop="-20dp"
+                    android:textSize="13dp" />
+
+                <TextView
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Psikolog klinis untuk anak-anak dan remaja adalah salah satu profesi yang penting...."
+                        android:layout_marginStart="-75dp"
+                        android:layout_marginTop="30dp"
+                        android:textSize="10dp" />
+
+                <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/article1"
+                        android:layout_marginStart="240dp"
+                        android:layout_marginTop="20dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:id="@+id/article_card2"
+                    android:layout_width="410dp"
+                    android:layout_height="135dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp">
+
+                <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="Depresi: Pengertian, Penyebab, dan Cara Deteksinya"
+                        android:layout_marginStart="-70dp"
+                        android:layout_marginTop="-15dp"
+                        android:textSize="13dp" />
+
+                <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Depresi umum ditemukan di dunia medis dan mempengaruhi apa yang..."
+                        android:layout_marginStart="-70dp"
+                        android:layout_marginTop="35dp"
+                        android:textSize="10dp" />
+
+                <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/article2"
+                        android:layout_marginStart="240dp"
+                        android:layout_marginTop="20dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:id="@+id/article_card3"
+                    android:layout_width="410dp"
+                    android:layout_height="135dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center">
+
+                <TextView
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="Catat, Ini Penyebab Gangguan Kepribadian yang Bisa Terjadi"
+                        android:layout_marginStart="-75dp"
+                        android:layout_marginTop="-20dp"
+                        android:textSize="13dp" />
+
+                <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Gangguan kepribadian adalah masalah mental yang memengaruhi..."
+                        android:layout_marginStart="-70dp"
+                        android:layout_marginTop="35dp"
+                        android:textSize="10dp" />
+
+                <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/article3"
+                        android:layout_marginStart="240dp"
+                        android:layout_marginTop="20dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:id="@+id/article_card4"
+                    android:layout_width="410dp"
+                    android:layout_height="135dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center">
+
+                <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="Depresi Rentan Menyerang Wanita, Ini Cara Mencegahnya"
+                        android:layout_marginStart="-70dp"
+                        android:layout_marginTop="-20dp"
+                        android:textSize="13dp" />
+
+                <TextView
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Ada banyak faktor yang memengaruhi depresi pada wanita. Di antaranya..."
+                        android:layout_marginStart="-73dp"
+                        android:layout_marginTop="35dp"
+                        android:textSize="10dp" />
+
+                <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/article4"
+                        android:layout_marginStart="240dp"
+                        android:layout_marginTop="20dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:id="@+id/article_card5"
+                    android:layout_width="410dp"
+                    android:layout_height="135dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center">
+
+                <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="Lansia Kerap Mengalami Depresi, Ini Penjelasannya"
+                        android:layout_marginStart="-70dp"
+                        android:layout_marginTop="-25dp"
+                        android:textSize="13dp" />
+
+                <TextView
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Rasa kesepian dan terisolasi, berbagai perubahan pada fisik, dan faktor lainnya..."
+                        android:layout_marginStart="-75dp"
+                        android:layout_marginTop="25dp"
+                        android:textSize="10dp" />
+
+                <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/article5"
+                        android:layout_marginStart="240dp"
+                        android:layout_marginTop="20dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:id="@+id/article_card6"
+                    android:layout_width="410dp"
+                    android:layout_height="135dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp">
+
+                <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="Kapan Waktu Tepat untuk Mendatangi Psikolog?"
+                        android:layout_marginStart="-70dp"
+                        android:layout_marginTop="-25dp"
+                        android:textSize="13dp" />
+
+                <TextView
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Masalah kesehatan mental adalah suatu kondisi kesehatan yang bisa diatasi dengan bantuan...."
+                        android:layout_marginStart="-75dp"
+                        android:layout_marginTop="25dp"
+                        android:textSize="10dp" />
+
+                <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/article6"
+                        android:layout_marginStart="240dp"
+                        android:layout_marginTop="20dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:id="@+id/card7"
+                    android:layout_width="410dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp">
+
+            </androidx.cardview.widget.CardView>
+
+             </LinearLayout>
+         </ScrollView>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@color/background_NAVcolor"
+        android:layout_marginTop="770dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/home_icon1"
+        android:layout_marginTop="785dp"
+        android:layout_marginStart="100dp"
+        android:layout_alignParentStart="true"/>
+
+    <ImageView
+        android:id="@+id/akun_article"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/akun_icon2"
+        android:layout_marginTop="785dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="100dp"/>
+
+
+</RelativeLayout>

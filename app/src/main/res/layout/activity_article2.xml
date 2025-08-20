@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".home.home_article.Article2">
+
+    <ImageView
+            android:id="@+id/back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/kem"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="30dp"/>
+
+    <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/kem2"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="30dp"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="80dp">
+
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="280dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/detail_article2"/>
+
+                <TextView
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:text="Depresi: Pengertian, Penyebab, dan Cara Deteksinya"
+                        android:textSize="25dp"
+                        android:fontFamily="@font/poppinsbold"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5 days ago         5 menit"
+                        android:textSize="10dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:layout_marginStart="20dp"/>
+
+                <TextView
+                        android:layout_width="385dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Serenepath, Bandung - Depresi umum ditemukan di dunia medis dan mempengaruhi apa yang kita rasakan, cara kita berpikir, dan bagaimana kita bertindak secara negatif. Depresi menyebabkan perasaan sedih dan kehilangan minat pada aktivitas yang sebelumnya disukai. Depresi juga dapat menyebabkan berbagai masalah emosional dan fisik serta mengurangi kemampuan siapa saja saat di tempat kerja maupun di rumah."/>
+
+                <TextView
+                        android:layout_width="385dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Depresi adalah bentuk gangguan kesehatan mental yang mempengaruhi perasaan dan perilaku dari seseorang. Hal yang paling umum dirasakan saat depresi adalah kecemasan, kehilangan kegemembiraan, kehilangan minat akan sesuatu, bahkan kehilangan harapan. Depresi yang berkepanjangan dapat mempengaruhi cara bertindak, cara berpikir, hingga kesehatan seseorang. Oleh karena itu, ini merupakan hal serius yang tidak boleh dibiarkan berlarut-larut."/>
+
+                <TextView
+                        android:layout_width="385dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="Apa Saja Faktor Yang Dapat Menyebabkan Depresi?"/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="1. Biokimia"/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Perbedaan komposisi senyawa kimia tertentu di otak. Fungsi neurotransmiter dan bagian otak seperti hipokampus dapat berkontribusi pada depresi."/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="2. Genetika"/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Depresi dapat menurun dalam keluarga. Jika salah seorang dari anak kembar identik mengalami depresi, kembarannya memiliki kemungkinan 70% mengalami hal yang sama."/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="3. Faktor Lingkungan"/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Paparan terus menerus terhadap kekerasan, pengabaian, pelecehan (fisik maupun verbal), atau kemiskinan dapat membuat beberapa orang rentan terhadap depresi."/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="4. Kepribadian"/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Orang-orang dengan kepercayaan diri yang rendah, diliputi stres, dan mereka yang pesimistis lebih berpotensi mengalami depresi. Depresi biasanya terkait dengan pemicu yang spesifik dan berlalu seiring jalannya waktu."/>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

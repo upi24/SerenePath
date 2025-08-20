@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".home.home_article.Article6">
+
+    <ImageView
+            android:id="@+id/back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/kem"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="30dp"/>
+
+    <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/kem2"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="30dp"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="80dp">
+
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="280dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/detail_article6"/>
+
+                <TextView
+                        android:layout_width="385dp"
+                        android:layout_height="wrap_content"
+                        android:text="Kapan Waktu Tepat untuk Mendatangi Psikolog?"
+                        android:textSize="25dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppinsbold"
+                        android:layout_marginTop="20dp"/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5 days ago         5 menit"
+                        android:textSize="10dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:layout_marginStart="20dp"/>
+
+                <TextView
+                        android:layout_width="385dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Serenepath, Bandung - Seperti penyakit fisik, masalah mental juga termasuk kondisi kesehatan yang tidak seharusnya kamu abaikan. Meskipun kondisi mental yang ringan hingga sedang bisa hilang dengan sendirinya, tidak perlu malu untuk mencari bantuan dengan cara mendatangi psikolog."/>
+
+                <TextView
+                        android:layout_width="385dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Mengetahui kapan waktu yang tepat untuk mengunjungi psikolog memang cukup sulit. Mungkin kamu berpikir bahwa semua orang pasti akan mengalami masa-masa sulit. Mungkin, kamu tidak yakin apakah masalahmu cukup besar untuk meminta bantuan profesional atau cukup kamu selesaikan sendiri."/>
+
+                <TextView
+                        android:layout_width="385dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="Tanda-Tanda Kamu Perlu Mendatangi Psikolog"/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="1. Masalah mental mengganggu kehidupan sehari-hari"/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Merasa tidak semangat atau kehilangan motivasi adalah hal yang sangat normal. Namun jika kondisi mentalmu menghambat aktivitas sehari-hari, mungkin inilah waktu yang tepat untuk berbicara dengan psikolog."/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="2. Mengalami level stres yang tinggi"/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Semua orang memiliki kapasitas penanganan stres yang berbeda. Meskipun orang lain merasa kuat untuk menghadapi jumlah kesibukan tertentu, tidak pasti berarti kamu mampu menjalaninya juga. Jika kamu merasa sedang dalam tekanan stres yang tinggi, jangan sungkan mendatangi psikolog."/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="3. Merasa susah berbicara tentang masalah"/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Apakah kamu termasuk orang yang sulit untuk bercerita ke orang lain tentang masalah emosional yang kamu alami? Jangan khawatir, kamu tidak sendiri! Karena norma-norma masyarakat yang terkadang melihat masalah mental sebagai hal yang tabu, berbicara tentang kondisi kesehatan mental bisa menjadi hal yang sulit."/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="4.  Kesulitan meregulasi emosi"/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Ini sering menyebabkan konflik orang-orang yang menjadi lawan bicara. Maka dari itu, sangat penting untuk mempelajari cara meregulasi emosi melalui teknik-teknik tertentu bersama psikolog."/>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

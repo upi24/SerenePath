@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "114392440870",
+    "project_id": "project-fec3f",
+    "storage_bucket": "project-fec3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114392440870:android:83a6540d09048d42ed86e7",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA_-NMPH-ctNkX2Z45st3LCrJl2w4eAeU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

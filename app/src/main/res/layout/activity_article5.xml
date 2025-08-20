@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".home.home_article.Article5">
+
+    <ImageView
+            android:id="@+id/back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/kem"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="30dp"/>
+
+    <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/kem2"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="30dp"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="80dp">
+
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="280dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/detail_article5"/>
+
+                <TextView
+                        android:layout_width="385dp"
+                        android:layout_height="wrap_content"
+                        android:text="Lansia Kerap Mengalami Depresi, Ini Penjelasannya"
+                        android:textSize="25dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppinsbold"
+                        android:layout_marginTop="20dp"/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5 days ago         5 menit"
+                        android:textSize="10dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:layout_marginStart="20dp"/>
+
+                <TextView
+                        android:layout_width="385dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Serenepath, Bandung - Banyak jatuh, bangun, sedih dan bahagia yang dialami selama hidup, membuat lansia terbentuk menjadi pribadi yang kuat. Namun, bukan berarti hal tersebut membuat mereka bebas dari masalah kesehatan mental, seperti depresi. "/>
+
+                <TextView
+                        android:layout_width="385dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Menurut data kesehatan yang dipublikasikan oleh National Association of Chronic Disease Directors, banyak lansia mengalami depresi karena situasi yang tidak sama ketika masih muda dulu. Pertambahan usia melambatkan metabolisme dan fisik. Aktivitas yang dulunya diminati bisa jadi tidak lagi nyaman dilakukan ketika usia sudah senior. "/>
+
+                <TextView
+                        android:layout_width="385dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="Penyebab Depresi pada Lansia"/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="1. Masalah Kesehatan"/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Penyakit dan kecacatan, sakit kronis atau berat, penurunan kognitif, kerusakan bentuk tubuh akibat pembedahan atau penyakit dapat berkontribusi pada depresi."/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="2. Kesepian dan Rasa Terisolasi"/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Faktor-faktor, seperti hidup sendirian, lingkaran sosial yang semakin kecil akibat kematian atau perpindahan tempat tinggal, mobilitas yang menurun karena sakit sangat dapat memicu depresi."/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="3. Tujuan Hidup yang Tak Lagi Jelas"/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Masa pensiun dapat menyebabkan hilangnya identitas, status, kepercayaan diri, keamanan finansial, dan meningkatkan risiko depresi. Keterbatasan fisik pada aktivitas yang biasanya dinikmati juga memengaruhi tujuan hidup para lansia."/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="4.  Ketakutan"/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Depresi ini juga dapat disebabkan oleh ketakutan akan kematian serta kecemasan atas masalah keuangan ataupun masalah kesehatan."/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

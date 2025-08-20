@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".home.home_hotline.hotline_psikolog.Psikolog1">
+
+    <ImageView
+        android:id="@+id/back1_black"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/kem"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="25dp"/>
+
+    <ImageView
+            android:id="@+id/back1_white"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/kem2"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="25dp"/>
+
+    <ImageView
+            android:id="@+id/img_psikolog1"
+            android:layout_width="275dp"
+            android:layout_height="250dp"
+            android:src="@drawable/detail_psikolog1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delvi Pardian, M.Psi., Psikolog"
+            android:layout_below="@+id/img_psikolog1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/poppinssemibold"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Psikolog"
+            android:layout_below="@+id/img_psikolog1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp"
+            android:textSize="15dp"
+            android:fontFamily="@font/poppinssemibold"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jadwal Chat Online"
+            android:layout_below="@+id/img_psikolog1"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="85dp"
+            android:textSize="12dp"
+            android:fontFamily="@font/poppinssemibold"/>
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/img_psikolog1"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="120dp"
+            app:cardCornerRadius="20dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jum'at"
+                android:layout_gravity="center"
+                android:layout_marginTop="-40dp"
+                android:fontFamily="@font/poppinssemibold"
+                android:textSize="15dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12:00-14:00"
+                android:layout_gravity="center"
+                android:layout_marginTop="-15dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12:00-14:00"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12:00-14:00"
+                android:layout_gravity="center"
+                android:layout_marginTop="45dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/img_psikolog1"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="20dp"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-40dp"
+            android:fontFamily="@font/poppinssemibold"
+            android:text="Sabtu"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-15dp"
+            android:text="12:00-14:00" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="12:00-14:00" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="45dp"
+            android:text="12:00-14:00" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+            android:id="@+id/card_riwayat"
+            android:layout_width="370dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/img_psikolog1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="290dp"
+            app:cardCornerRadius="20dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Riwayat Pendidikan"
+                android:layout_gravity="center"
+                android:layout_marginTop="-10dp"
+                android:fontFamily="@font/poppinssemibold"
+                android:textSize="15dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Universitas Persada Indonesia Y.A.I (2016)"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-10dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/card_riwayat"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            app:cardCornerRadius="20dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Biaya Konsultasi"
+                android:textSize="10dp"
+                android:fontFamily="@font/poppinssemibold"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="30dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp 35.000"
+                android:textSize="10dp"
+                android:fontFamily="@font/poppinssemibold"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="30dp"/>
+
+        <Button
+                android:id="@+id/chat_p1"
+                android:layout_width="125dp"
+                android:layout_height="40dp"
+                android:text="Chat Sekarang"
+                android:textSize="10dp"
+                android:layout_marginStart="230dp"
+                android:layout_marginTop="5dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

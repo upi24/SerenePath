@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".home.home_music.MusicActivity">
+
+    <ImageView
+            android:id="@+id/back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/kem"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="30dp"/>
+
+    <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/kem2"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="30dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music Theraphy           !"
+            android:textSize="25dp"
+            android:fontFamily="@font/poppinssemibold"
+            android:layout_marginTop="80dp"
+            android:layout_centerHorizontal="true"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Path"
+            android:textSize="25dp"
+            android:textColor="#70A597"
+            android:fontFamily="@font/poppinsbold"
+            android:layout_marginTop="81dp"
+            android:layout_marginStart="272dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose your music"
+            android:textSize="18dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:layout_marginTop="140dp"
+            android:layout_marginStart="30dp"/>
+
+    <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="350dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="180dp"
+            android:layout_centerHorizontal="true"
+            app:cardCornerRadius="20dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Music 1"
+                android:fontFamily="@font/poppinssemibold"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Serene Music"
+                android:fontFamily="@font/poppinsregular"
+                android:textSize="15dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="20dp"/>
+
+        <ImageView
+                android:id="@+id/play_music1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/pause"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="280dp"/>
+
+        <ImageView
+                android:id="@+id/pause_music1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/play"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="280dp"
+                android:visibility="invisible"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+            android:id="@+id/card2"
+            android:layout_width="350dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="295dp"
+            android:layout_centerHorizontal="true"
+            app:cardCornerRadius="20dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Music 2"
+                android:fontFamily="@font/poppinssemibold"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Serene Music"
+                android:fontFamily="@font/poppinsregular"
+                android:textSize="15dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="20dp"/>
+
+        <ImageView
+                android:id="@+id/play_music2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/pause"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="280dp"/>
+
+        <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/play"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="280dp"
+                android:visibility="invisible"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+            android:id="@+id/card3"
+            android:layout_width="350dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="405dp"
+            android:layout_centerHorizontal="true"
+            app:cardCornerRadius="20dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Music 3"
+                android:fontFamily="@font/poppinssemibold"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Serene Music"
+                android:fontFamily="@font/poppinsregular"
+                android:textSize="15dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="20dp"/>
+
+        <ImageView
+                android:id="@+id/play_music3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/pause"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="280dp"/>
+
+        <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/play"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="280dp"
+                android:visibility="invisible"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+            android:id="@+id/card4"
+            android:layout_width="350dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="520dp"
+            android:layout_centerHorizontal="true"
+            app:cardCornerRadius="20dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Music 4"
+                android:fontFamily="@font/poppinssemibold"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Serene Music"
+                android:fontFamily="@font/poppinsregular"
+                android:textSize="15dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="20dp"/>
+
+        <ImageView
+                android:id="@+id/play_music4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/pause"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="280dp"/>
+
+        <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/play"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="280dp"
+                android:visibility="invisible"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+            android:id="@+id/card5"
+            android:layout_width="350dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="635dp"
+            android:layout_centerHorizontal="true"
+            app:cardCornerRadius="20dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Music 5"
+                android:fontFamily="@font/poppinssemibold"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Serene Music"
+                android:fontFamily="@font/poppinsregular"
+                android:textSize="15dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="20dp"/>
+
+        <ImageView
+                android:id="@+id/play_music5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/pause"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="280dp"/>
+
+        <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/play"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="280dp"
+                android:visibility="invisible"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/home_icon1"
+            android:layout_marginTop="775dp"
+            android:layout_marginStart="100dp"
+            android:layout_alignParentStart="true"/>
+
+    <ImageView
+            android:id="@+id/akun_music"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/akun_icon2"
+            android:layout_marginTop="775dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="100dp"/>
+
+</RelativeLayout>

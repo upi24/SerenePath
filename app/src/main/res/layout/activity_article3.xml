@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".home.home_article.Article3">
+
+    <ImageView
+            android:id="@+id/back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/kem"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="30dp"/>
+
+    <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/kem2"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="30dp"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="80dp">
+
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="280dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/detail_article3"/>
+
+                <TextView
+                        android:layout_width="385dp"
+                        android:layout_height="wrap_content"
+                        android:text="Catat, Ini Penyebab Gangguan Kepribadian yang Bisa Terjadi"
+                        android:textSize="25dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppinsbold"
+                        android:layout_marginTop="20dp"/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5 days ago         5 menit"
+                        android:textSize="10dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:layout_marginStart="20dp"/>
+
+                <TextView
+                        android:layout_width="385dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Serenepath, Bandung - Gangguan kepribadian adalah masalah mental yang memengaruhi pola pikir, perasaan hingga perilaku pengidapnya. Ada berbagai jenis gangguan kepribadian, yang paling umum adalah gangguan kecemasan."/>
+
+                <TextView
+                        android:layout_width="385dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Ada banyak faktor pemicu masalah ini, mulai dari lingkungan, gaya hidup atau dampak dari gangguan mental yang sudah ada sebelumnya. Supaya lebih memahaminya, kenali berbagai penyebabnya berikut ini!"/>
+
+                <TextView
+                        android:layout_width="385dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="Penyebab Gangguan Kepribadian"/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="1. Faktor Genetik"/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Faktanya, genetik adalah faktor penyumbang yang cukup signifikan dalam perkembangan gangguan kepribadian. Telah banyak penelitian yang membuktikan bahwa orang dengan riwayat keluarga gangguan kepribadian punya potensi lebih besar mengalaminya. "/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="2.  Gangguan Neurobiologis"/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Gangguan kepribadian dapat terkait dengan perubahan dalam struktur dan fungsi otak. Sebagai contoh, gangguan kepribadian antisosial sering dikaitkan dengan kurangnya aktivasi area otak yang bertanggung jawab untuk mengatur perilaku impulsif dan kontrol diri."/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="3. Penyalahgunaan zat"/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Penggunaan zat seperti alkohol dan obat-obatan terlarang juga bisa memicu kondisi ini. Zat-zat tersebut bisa memengaruhi struktur otak dan keseimbangan kimia dalam tubuh. Akibatnya, hal ini dapat memengaruhi pola perilaku dan pikiran seseorang."/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="4. Faktor kognitif"/>
+
+                <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Gangguan kepribadian obsesif-kompulsif, misalnya. Kondisi ini bisa berkembang akibat pola pikir yang tidak sehat atau obsesi yang mengganggu. Pola pikir ini dapat memengaruhi cara seseorang berinteraksi dengan dunia di sekitarnya."/>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>
